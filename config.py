@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7859871122:AAGiVnNWw_a9a1hcK71eWpL07QwH1lX9s5Q")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7649441713:AAGyC_sM568n6ghrkDokgbOYFEYs36j0J2w")
 API_ID = int(os.environ.get("API_ID", "27705761"))
 API_HASH = os.environ.get("API_HASH", "822cb334ca4527a134aae97f9fe44fd6")
 
@@ -63,7 +63,7 @@ USER_REPLY_TEXT = "<b>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ᴀᴅᴍɪɴ</b> !"
 
 START_MSG = os.environ.get("START_MESSAGE", "Hᴇʟʟᴏ {mention}\n\nɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀs ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</b>")
 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>›› ʜᴇʏ {mention} ×\n\nʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ ᴊᴏɪɴ\n
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>**<blockquote>›› ʜᴇʏ {mention} × </blockquote>**</b>\n\n<b>ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ ᴊᴏɪɴ\n
 ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, ᴊᴏɪɴ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs.‼️</b>")
 
 
