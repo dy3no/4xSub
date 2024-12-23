@@ -135,7 +135,12 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="Join Channel", url=client.invitelink)
+            InlineKeyboardButton(text="Join Channel 1", url=client.invitelink),
+            InlineKeyboardButton(text="Join Channel 2", url=client.invitelink2),
+        ],
+        [
+            InlineKeyboardButton(text="Join Channel 3", url=client.invitelink3),
+            InlineKeyboardButton(text="Join Channel 4", url=client.invitelink4),
         ]
     ]
     try:
@@ -149,6 +154,7 @@ async def not_joined(client: Client, message: Message):
         )
     except IndexError:
         pass
+
 
     await message.reply(
         text = FORCE_MSG.format(
@@ -224,6 +230,7 @@ async def send_text(client: Bot, message: Message):
 
 
 
+
 # Function to handle file deletion
 async def delete_files(messages, client, k):
     await asyncio.sleep(FILE_AUTO_DELETE)  # Wait for the duration specified in config.py
@@ -234,8 +241,10 @@ async def delete_files(messages, client, k):
             print(f"The attempt to delete the media {msg.id} was unsuccessful: {e}")
     # await client.send_message(messages[0].chat.id, "Your Video / File Is Successfully Deleted ✅")
     await k.edit_text("Your Video / File Is Successfully Deleted ✅")
+    
 
-
-
-# Akash Developer 
+# Jishu Developer 
 # Don't Remove Credit 🥺
+# Telegram Channel @Madflix_Bots
+# Backup Channel @JishuBotz
+# Developer @JishuDeveloper
