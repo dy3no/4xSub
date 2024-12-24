@@ -25,7 +25,7 @@ FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002392114612"))
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "5")) # auto delete in seconds
 
 
-PORT = os.environ.get("PORT", "8010")
+PORT = os.environ.get("PORT", "8000")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
